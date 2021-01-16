@@ -11,11 +11,8 @@ Pod::Spec.new do |s|
   s.authors      = package["author"]
 
   s.platforms    = { :ios => "10.0" }
-  s.source       = { :git => "https://github.com/domainxh/rn-test-module.git", :tag => "#{s.version}" }
-
-  
+  s.source       = { :git => "git@github.com:xiaohengpan/MiSnap.git" }
   s.source_files = "ios/**/*.{h,m,mm,swift}"
   
-
   s.dependency "React-Core"
 end

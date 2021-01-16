@@ -1,0 +1,23 @@
+PODS:
+  - MiSnap (1.3.3):
+    - MiSnap/Standard (= 1.3.3)
+  - MiSnap/Standard (1.3.3)
+
+DEPENDENCIES:
+  - "MiSnap (from `git@github.com:xiaohengpan/MiSnap.git`)"
+
+EXTERNAL SOURCES:
+  MiSnap:
+    :git: "git@github.com:xiaohengpan/MiSnap.git"
+
+CHECKOUT OPTIONS:
+  MiSnap:
+    :commit: f5eddabb08b1bbc7cdc4d1392d689d764a264ccd
+    :git: "git@github.com:xiaohengpan/MiSnap.git"
+
+SPEC CHECKSUMS:
+  MiSnap: 23645abf2dfb9dec731409e197eebaed78c3fb31
+
+PODFILE CHECKSUM: aeb87a36ee5d6af095df0d9b981dcc66d26de614
+
+COCOAPODS: 1.10.0

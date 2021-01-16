@@ -1,0 +1,34 @@
+{
+  "name": "MiSnap",
+  "module_name": "MiSnap",
+  "version": "1.3.3",
+  "summary": "MiSnap 4.4.1",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/xiaohengpan/MiSnap.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "": ""
+  },
+  "source": {
+    "git": "git@github.com:xiaohengpan/MiSnap.git",
+    "tag": "1.3.3"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "subspecs": [
+    {
+      "name": "Standard",
+      "vendored_frameworks": [
+        "MiSnapSDK.framework",
+        "MobileFlow.framework",
+        "MiSnapSDKCamera.framework",
+        "MiSnapSDKMibiData.framework",
+        "MiSnapSDKScience.framework"
+      ]
+    }
+  ]
+}
