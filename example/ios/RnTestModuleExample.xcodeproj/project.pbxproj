@@ -17,7 +17,6 @@
 		2DCD954D1E0B4F2C00145EB5 /* RnTestModuleExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RnTestModuleExampleTests.m */; };
 		4C39C56BAD484C67AA576FFA /* libPods-RnTestModuleExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA3E69C5B9553B26FBA2DF04 /* libPods-RnTestModuleExample.a */; };
 		62CF37AE25B26B4700A5BB31 /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = 62CF37AD25B26B4700A5BB31 /* Classes */; };
-		62D18BE525B23020001BA987 /* librn-test-module.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 62D18BE425B23020001BA987 /* librn-test-module.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -73,7 +72,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62D18BE525B23020001BA987 /* librn-test-module.a in Frameworks */,
 				4C39C56BAD484C67AA576FFA /* libPods-RnTestModuleExample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
